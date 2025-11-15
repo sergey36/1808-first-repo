@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Integration Tests
-        run: echo "Running integration tests..."
+        run: exit 1
 
   lint:
     needs: build
